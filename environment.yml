@@ -2,7 +2,7 @@ name: huggingface-onnx
 
 dependencies:
   - python=3.8
-  - conda-forge::pytorch
+  - pytorch
   - pip
   - transformers[onnx]
   - onnxruntime
